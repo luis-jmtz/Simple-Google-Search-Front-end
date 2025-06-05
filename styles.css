@@ -1,0 +1,12 @@
+.basic-search{
+    margin: auto;
+    width: 100%;
+    border: 1px solid green;
+    text-align: center;
+
+    .text-input{
+        margin: auto;
+        width: 50%;
+    }
+
+}
