@@ -1,2 +1,0 @@
-It seems that Google Image Search and the normal Google Search
-can have the same styling
