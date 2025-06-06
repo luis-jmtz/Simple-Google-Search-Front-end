@@ -58,20 +58,24 @@
 .advanced-form{
     
     text-align: left;
-    background-color: gray;
 
     .sub-button{
         text-align: right;
         input[type=submit]{
-        margin-top: 1%;
-        margin-left: 1%;
         height: 20%;
         background-color: #4488f6;
+        height: 20%;
+        width: auto;
         color: aliceblue;
+        margin-right: 45%;
+        margin-top: 15px;
         border:none;}}
 
     input[type="text"]{
         font-size: medium;
+        margin-left: 30px;
+        margin-top: 15px;
+        margin-right: 30px;
     }
 
 }
