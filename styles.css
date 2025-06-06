@@ -28,6 +28,11 @@
         height: 20%;
     }
 
+    input[type="text"]:focus{
+        outline: none;
+        border-color: black;
+    }
+
 
 }
 
