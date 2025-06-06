@@ -4,12 +4,14 @@
     border: 1px solid green;
     text-align: center;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 3%;
 
 
     input[type="text"]{
     margin: auto;
     width: 600px;
+    height: 40px;
+    border-radius: 20px;
     }
     
     @media screen and (max-width:600px) {
@@ -25,6 +27,12 @@
         width: 450px;
         }
     }
+}
 
-
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-top: 5%;
 }
