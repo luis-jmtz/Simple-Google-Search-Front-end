@@ -8,12 +8,15 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <a href="index.html">Google Search</a>
-        <a href="google_image_search.html">Google Image Search</a>
-        <p>Advanced Searh</p>
+        <div class="switch-searches">
+            <a href="index.html">Google Search</a>
+            <a href="google_image_search.html">Google Image Search</a>
+        </div>
+        <p id="top-text">Advanced Search</p>
+        <hr>
         <form action="https://www.google.com/search">
-            <div>
-                <p class="form_header">Find pages with..</p>
+            <div class="advanced-form">
+                <p class="form_header" style="font-size: large;">Find pages with..</p>
                 <label>all these words:</label>
                 <input type="text" name="q">
                 <br>
@@ -30,7 +33,9 @@
                 <input type="text" name="as_nlo">
                 <label> to </label>
                 <input type="text" name="as_nhi">
+                <div class="sub-button">
                 <input type="submit" value="Advanced Search">
+                </div>
             </div>    
         </form>
     </body>

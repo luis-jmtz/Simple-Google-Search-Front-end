@@ -54,3 +54,30 @@
         color: black;
     }
 }
+
+.advanced-form{
+    
+    text-align: left;
+    background-color: gray;
+
+    .sub-button{
+        text-align: right;
+        input[type=submit]{
+        margin-top: 1%;
+        margin-left: 1%;
+        height: 20%;
+        background-color: #4488f6;
+        color: aliceblue;
+        border:none;}}
+
+    input[type="text"]{
+        font-size: medium;
+    }
+
+}
+
+#top-text{
+    color:#d93025;
+    font-weight: bold;
+    font-size: large;
+}
